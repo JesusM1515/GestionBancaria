@@ -8,6 +8,6 @@ namespace CapaNegocio
 {
     internal interface IMetodo
     {
-        void Monto(string correo, string password, int monto);
+        void Monto(string correo, string password, decimal monto);
     }
 }
